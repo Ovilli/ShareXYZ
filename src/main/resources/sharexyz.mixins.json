@@ -5,19 +5,22 @@
   "mixins": [
     "EntityStartRidingMixin",
     "SharedPlayerCollisionMixin",
-    "PlayerDeathRestartMixin",
     "PlayerInteractionMixin",
     "PlayerDamageProtectionMixin",
-    "SpawnProtectionMixin",
     "PlayerFoodSyncMixin",
     "PlayerNoDismountMixin",
-    "SharedAvatarFallDamageMixin"
+    "SharedAvatarWalkAnimationMixin"
+  ],
+  "server": [
+    "PlayerDeathRestartMixin",
+    "SpawnProtectionMixin"
   ],
   "client": [
     "AxisInputMixin",
     "HideOtherPlayersMixin",
     "IgnoreOtherPlayersTargetMixin",
-    "SharedAvatarMountMessageMixin"
+    "SharedAvatarMountMessageMixin",
+    "SharedAvatarPlayerRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+.gradle-local/
+build/
+out/
+bin/
+
+# Minecraft / Fabric dev run directory (worlds, logs, generated configs)
+run/
+
+# IDE
+.idea/
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store

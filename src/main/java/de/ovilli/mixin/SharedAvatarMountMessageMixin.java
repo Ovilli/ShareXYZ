@@ -14,9 +14,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 /**
  * Hides the vanilla "Press Shift to dismount" hint.
  *
- * <p>The participants can never leave the shared avatar: the sneak key is the descend key of
- * the Y axis. Telling the player that sneak dismounts them would be wrong, so the overlay
- * message is suppressed while riding the shared avatar.
+ * <p>The participants can never leave the shared avatar. Telling the player that sneak
+ * dismounts them would be wrong, so the overlay message is suppressed while riding it.
  */
 @Mixin(Hud.class)
 public abstract class SharedAvatarMountMessageMixin {
