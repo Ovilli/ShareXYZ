@@ -1,0 +1,9 @@
+{
+  "key.category.sharexyz.controls": "ShareXYZ",
+  "key.sharexyz.x_negative": "Move everyone west (X−)",
+  "key.sharexyz.x_positive": "Move everyone east (X+)",
+  "key.sharexyz.y_negative": "Move everyone down (Y−)",
+  "key.sharexyz.y_positive": "Move everyone up (Y+)",
+  "key.sharexyz.z_negative": "Move everyone north (Z−)",
+  "key.sharexyz.z_positive": "Move everyone south (Z+)"
+}

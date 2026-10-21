@@ -1,0 +1,2 @@
+/sharedxyz
+/sharedxyz status
